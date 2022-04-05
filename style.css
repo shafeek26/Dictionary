@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+nav{
+    min-width: 100vw;
+    background-color: rgb(150, 73, 150);
+    color: #ffff;
+}
+.container{
+    width: 100vw;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+section.input{
+    padding-top: 100px;
+}
+.form_wrapper{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.input_wraper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+button{
+    background-color: rgb(150, 73, 150);
+    color: #ffff;
+    border: none;
+    outline: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+section.data{
+    height: 100vh;
+    max-height: 70%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+.loading{
+    display: none;
+}
+.def{
+    margin-top:20px ;
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+}
+.not_found{
+    margin-top:10px;
+}
+.suggested{
+    margin: 20px;
+    font-size: 18px;
+    color: rgb(41, 40, 40);
+}
+.sugg_word{
+    color:#ffff;
+    background-color: rgb(165, 76, 158);
+    border: 1px solid grey;
+    padding: 2px 10px;
+    margin-right:10px ;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.audio{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

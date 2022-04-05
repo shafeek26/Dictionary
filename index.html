@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Dictionary app</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+<section class="input container">
+    <div class="form_wrapper">
+        <h1>Search any word in the world :)</h1>
+        <div class="input_wraper">
+            <input type="text" placeholder="Type a word" class="input_field" id="input"/>
+            <button id='search'>search</button>
+        </div>
+    </div>
+</section>
+
+<section class="data container">
+    <div class="def_card">
+    <span class="loading">Loading....</span>
+    <p class="def">Defination Of The Your Word</p>
+    <div class="not_found"></div>
+    <div class="audio"></div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
